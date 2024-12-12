@@ -1,0 +1,116 @@
+.navContainer {
+    display: flex;
+    margin-left: 22px;
+}
+
+.sidebar {
+    width: 100%;
+    flex: 0.1;
+}
+
+.sidebarIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.sidebarIcons:first-child {
+    margin-top: 23px;
+}
+
+.sidebarIcon {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.sidebarIcon:hover {
+    background-color: rgba(201, 195, 195, 0.88);
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 20px;
+}
+
+.sidebarIcon>img {
+    width: 28px;
+}
+
+.sidebarIcon>p {
+    font-size: 8px;
+    font-weight: 500;
+}
+
+
+.main-nav {
+    flex: 1.5;
+}
+
+.logoContainer {
+    flex: 1.5;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: self-start;
+}
+
+
+.mainLogo>img {
+    width: 44px;
+    cursor: pointer;
+}
+
+
+.search {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.search>input {
+    width: 350px;
+    height: 33px;
+    border-radius: 20px;
+    border: none;
+    outline: 1px solid black;
+    padding: 12px;
+}
+
+.search>img {
+    width: 18px;
+    cursor: pointer;
+}
+
+.search-icon {
+    position: absolute;
+    right: 54px;
+}
+
+.mic-icon {
+    margin-left: 22px;
+}
+
+.userIcons {
+    margin-right: 28px;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+}
+
+.userIcons>img {
+    width: 28px;
+    cursor: pointer;
+}
+
+.contentContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    margin: 0 10px 30px 18px;
+    align-items: center;
+}

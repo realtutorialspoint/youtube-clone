@@ -1,0 +1,48 @@
+.cardContainer{
+    transition: all 150ms ease-in-out;
+}
+
+.cardContainer:hover {
+    transform: scale(0.9);
+}
+
+.cardImage>img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cardInfo {
+    display: flex;
+    gap: 12px;
+}
+
+.cardOwner>img {
+    width: 34px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.cardHeroTitle>h2 {
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+.cardOwnerTitle>h4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+.cardStats>h6 {
+    margin-top: 2px;
+    font-size: 13px;
+    color: gray;
+    font-weight: 400;
+}
